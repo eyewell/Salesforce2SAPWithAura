@@ -1,5 +1,7 @@
 # SFDX  App
 
+<img src="https://github.com/eyewell/Salesforce2SAPWithAura/blob/master/SAPAuraComponent.jpg">
+
 #What the component does:
 This POC  component is queries for Order fields from SAP, using a specific SAP username and Order ID (See details below). The query is made via SOAP (REST is supported as well). The fields are then returned by SAP, parsed by salesforce service-side component, and then passed to the client-side controller, and client side component for rendering in Javascript.
 
