@@ -15,15 +15,6 @@ No deployment script - this is a reference implementation from which developers 
 At a high level, the code in this repo is specific to the SAP API WSDL that was deployed - your any other deployment really needs to go through that same process.
 
 
-## Description of Files and Directories
-
-###### /force-app/main/default/aura/SampleSAPQuery/
-Directory of parts of the Lightning Component: UI and Client Controller
-
-###### / force-app/main/default/classes/
-Directory of the Apex classes which support the API call out, and the WSDL-based supporting Apex classes.
-
-
 ## App architecture
 There are 2 options when you make callouts from lightning apps. You can either:
 1) call the API from the component, through the salesforce servers, to the remote API, or
@@ -43,5 +34,13 @@ The Aura component contains the javascript and helper code to respond to the UI,
 
 ###### View
 The Aura component contains the UI
+
+## Description of Files and Directories
+
+###### /force-app/main/default/aura/SampleSAPQuery/
+Directory of parts of the Lightning Component: UI and Client Controller
+
+###### / force-app/main/default/classes/
+Directory of the Apex classes which support the API call out, and the WSDL-based supporting Apex classes.
 
 
